@@ -1,0 +1,20 @@
+.play-button {
+  padding: 0 40px;
+  height: 60px;
+  background: #2596d9;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.12s linear;
+}
+
+.play-button:not(:disabled):hover {
+  background: #2281ba;
+}
+
+.play-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
